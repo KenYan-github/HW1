@@ -30,4 +30,10 @@ head(table)
     ## 5                4
     ## 6                7
 
+``` r
+plot(head(table)[,c("YEAR_BUILT_027","DECK_COND_058")], main = "Bridge Deck Condition against Year Built")
+```
+
+![](README_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
+
 \`\`\`
